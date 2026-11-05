@@ -83,8 +83,8 @@ class Bootstrap:
     default_arch = "arm64"
     default_version = "2.55.0.8"
 
-    _cerbero_origin = "https://github.com/Igalia/wpe-android-cerbero.git"
-    _cerbero_branch = "main"
+    _cerbero_origin = "https://github.com/spenap/wpe-android-cerbero.git"
+    _cerbero_branch = "spena/scroll-instrumentation"
 
     _packages_url_template = "https://wpewebkit.org/android/bootstrap/{version}/{filename}"
     _devel_package_name_template = "wpewebkit-android-{arch}-{version}.tar.xz"
